@@ -1,1 +1,1 @@
-# rock_paper_scissor_odin_project
+Rock Paper Scissor Project from The Odin Project
