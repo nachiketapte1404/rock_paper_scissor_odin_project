@@ -1,0 +1,13 @@
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: 200;
+    color:purple;
+}
+button_container{
+    font-size: large;
+    font-style: italic;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}

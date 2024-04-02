@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
+
 <body>
-    
+    <h1>Choose Your Weapon</h1>
+    <div button_continainer>
+        <button id="rock">
+            <img src="assets/images/rock.png" height="20px" width="20px"> Rock
+        </button>
+        <button id="paper">
+            <img src="assets/images/paper.png" height="20px" width="20px"> Paper
+        </button>
+        <button id="scissors">
+            <img src="assets/images/scissor.png" height="20px" width="20px"> Scissors
+        </button>
+    </div>
+    <button id="reset">
+    <img src="assets/images/reset.png" height="20px" width="20px">Reset
+    </button>
+    <p>PS: It is a five match game!<br>You must play until either you or the computer wins
+       to end the game! OR <br>press the RESET button to reset the game!</p>
+    <p id="choice"></p>
+    <p id="final_result"></p>
+    <p id="play_continuation"></p>
+    <script src="script.js"></script>
 </body>
+
 </html>
